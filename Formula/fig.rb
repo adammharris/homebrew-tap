@@ -1,28 +1,28 @@
 class Fig < Formula
   desc "Parse, edit, and convert config files while preserving comments. Supports JSON, YAML, TOML, and more."
   homepage "https://github.com/adammharris/fig"
-  version "3.3.0"
+  version "3.4.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/adammharris/fig/releases/download/cli/v3.3.0/fig-macos-arm64.tar.gz"
-      sha256 "c134b1fc2bc9f921e570c0bfd4fd13864f86e8d1374314af4181e687fbb5885b"
+      url "https://github.com/adammharris/fig/releases/download/cli/v3.4.0/fig-macos-arm64.tar.gz"
+      sha256 "8e0f07421407f5bf3669f6d77988b41ebc3a3d42e92c53c207ddbc4d69fa4bb8"
     end
     on_intel do
-      url "https://github.com/adammharris/fig/releases/download/cli/v3.3.0/fig-macos-x86_64.tar.gz"
-      sha256 "d668ca9cdfccf1de195e92bd689151cf0dab9a76ad89f5fcad0ed1b7a12291e8"
+      url "https://github.com/adammharris/fig/releases/download/cli/v3.4.0/fig-macos-x86_64.tar.gz"
+      sha256 "5a962f7377f08c06e8fbe3e040aaffe95dda21c2eeeaba05e21bfc62929b1b58"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adammharris/fig/releases/download/cli/v3.3.0/fig-linux-aarch64.tar.gz"
-      sha256 "d9958055a342f2a5e01faea06dd39e588bd942f05258e448536d7e800169ba3b"
+      url "https://github.com/adammharris/fig/releases/download/cli/v3.4.0/fig-linux-aarch64.tar.gz"
+      sha256 "ce312be39be9e6a0cfff8e08980bae85767edec4293069aa1cdbe3f3a17bf37d"
     end
     on_intel do
-      url "https://github.com/adammharris/fig/releases/download/cli/v3.3.0/fig-linux-x86_64.tar.gz"
-      sha256 "c58d56981818659566b840aa61723afb07f1fca0d6313fa491b6bc532bed4bf2"
+      url "https://github.com/adammharris/fig/releases/download/cli/v3.4.0/fig-linux-x86_64.tar.gz"
+      sha256 "889259a3c25a9fe3c02adeaa6cd5484db98ee80ac61c362c0fc16ec613abfe54"
     end
   end
 
