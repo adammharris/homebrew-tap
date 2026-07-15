@@ -1,28 +1,28 @@
 class Twig < Formula
   desc "Parse, query, edit, and losslessly round-trip Djot, Markdown, HTML, and XML documents"
   homepage "https://github.com/adammharris/twig"
-  version "1.0.2"
+  version "2.0.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/adammharris/twig/releases/download/v1.0.2/twig-macos-arm64.tar.gz"
-      sha256 "f4f354080ae4a8ad920e201df9f5614bdafeb16cb727e4a1a671d144e992c2b0"
+      url "https://github.com/adammharris/twig/releases/download/v2.0.0/twig-macos-arm64.tar.gz"
+      sha256 "fcd0b40d0f782aa3a735eeb77e941378772f8f49900cd824988c471bc98eff38"
     end
     on_intel do
-      url "https://github.com/adammharris/twig/releases/download/v1.0.2/twig-macos-x86_64.tar.gz"
-      sha256 "afb9181ab24a7f1f25defcc5702787c6ef0d1265a0d43672febd2161a6df616f"
+      url "https://github.com/adammharris/twig/releases/download/v2.0.0/twig-macos-x86_64.tar.gz"
+      sha256 "69000092bde59af8522d680b57108c300bde6aa36b32cad73280489d43451989"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adammharris/twig/releases/download/v1.0.2/twig-linux-aarch64.tar.gz"
-      sha256 "459dce6c632889a7e781312d34435a36a69fa2e67d9deac8f3b42d2f7583055a"
+      url "https://github.com/adammharris/twig/releases/download/v2.0.0/twig-linux-aarch64.tar.gz"
+      sha256 "16ce13f43ab71a78e03a6998b5e6b568a23f81433120e7833c59e945717afa32"
     end
     on_intel do
-      url "https://github.com/adammharris/twig/releases/download/v1.0.2/twig-linux-x86_64.tar.gz"
-      sha256 "7e91b24edc53f3f30b933886f06cdde1e6436d0d9893b2d47b5bb498c4e8cd24"
+      url "https://github.com/adammharris/twig/releases/download/v2.0.0/twig-linux-x86_64.tar.gz"
+      sha256 "8b24ba631b0c3fa6ad0c77c0306138d2be51cf009b1e00fea58cd6ec9015950b"
     end
   end
 
