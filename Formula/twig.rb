@@ -7,22 +7,22 @@ class Twig < Formula
   on_macos do
     on_arm do
       url "https://github.com/adammharris/twig/releases/download/v2.1.0/twig-macos-arm64.tar.gz"
-      sha256 "28ad8a3fda8cdfd86f2916b37e6713584b5cea4563d736e33314cb584f5d2938"
+      sha256 "ba0461029cdfe5652a0b6052322ddd39b674d3ac21947e2f43a756dea2a26bc9"
     end
     on_intel do
       url "https://github.com/adammharris/twig/releases/download/v2.1.0/twig-macos-x86_64.tar.gz"
-      sha256 "687ef111c419c82e9e3c91b1a3520d0038ea2a60e74828ba0f7ab773f717a916"
+      sha256 "07e70ffbae26792f16054b0a7d6df192904030b8ea3dd9aae58c3c3f4cd73c4e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/adammharris/twig/releases/download/v2.1.0/twig-linux-aarch64.tar.gz"
-      sha256 "6d902cdccca16c46d06884ca3fcf89b42f82ceec10f6cd5577895d1f453b4658"
+      sha256 "9fa68be684074ef5f34b9a1a884237218b90dfcd4ffa5892e03eade9e911e9ac"
     end
     on_intel do
       url "https://github.com/adammharris/twig/releases/download/v2.1.0/twig-linux-x86_64.tar.gz"
-      sha256 "fadf919b3709ba624bded84ff3cba7d0d1e046f9a5e798059890ae5e19cd88d3"
+      sha256 "39d063510b0a1852f8838b457be106a47f31574cceb87d62c3ef8815165deb67"
     end
   end
 
