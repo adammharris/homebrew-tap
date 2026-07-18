@@ -1,28 +1,28 @@
 class Colophon < Formula
   desc "Command-line companion for the colophon self-describing workspace library"
   homepage "https://github.com/adammharris/colophon"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/adammharris/colophon/releases/download/v0.2.0/colophon-macos-arm64.tar.gz"
-      sha256 "15b07f8b963f868a987dda75dbf58ea1429dd9502e2ed4b322e0a6c0afeae3b8"
+      url "https://github.com/adammharris/colophon/releases/download/v0.2.1/colophon-macos-arm64.tar.gz"
+      sha256 "33349eec3859712d199f1ee3d2bd8a9a3082f07de217488537ebf6bd3d7f366d"
     end
     on_intel do
-      url "https://github.com/adammharris/colophon/releases/download/v0.2.0/colophon-macos-x86_64.tar.gz"
-      sha256 "d3a8c4d43570733f4fe8a8e513e9ff87dc2cb0e7107dacba32c1a0d0f31676f2"
+      url "https://github.com/adammharris/colophon/releases/download/v0.2.1/colophon-macos-x86_64.tar.gz"
+      sha256 "ee2f0310ac86990ed4bc9a819bb6c302493d5818fc2078adbc44ccb35d3976e4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adammharris/colophon/releases/download/v0.2.0/colophon-linux-aarch64.tar.gz"
-      sha256 "591b2f32d48facfc60f8e91f4367bf20e3737c379877e84b8b331395fa81ee44"
+      url "https://github.com/adammharris/colophon/releases/download/v0.2.1/colophon-linux-aarch64.tar.gz"
+      sha256 "e5da45aa95bae72f0cfd94ac5a194120f9cd2a23af0da71596887ef2ebcbb02b"
     end
     on_intel do
-      url "https://github.com/adammharris/colophon/releases/download/v0.2.0/colophon-linux-x86_64.tar.gz"
-      sha256 "a27be6f1e3774ef5d09374fd0a26fa654d2e3b1aa1a356b90972711e2bb424cc"
+      url "https://github.com/adammharris/colophon/releases/download/v0.2.1/colophon-linux-x86_64.tar.gz"
+      sha256 "e525820476858ccc5dd0b0e2aa01ab970a79134645344ed95756e38b6637b85f"
     end
   end
 
